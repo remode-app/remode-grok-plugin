@@ -1,6 +1,6 @@
 # Remode for Grok
 
-The official [Remode](https://remode.app) plugin for Grok Build. It connects
+The official [Remode](https://remode.app) plugin for Grok. It connects
 Grok to Remode's hosted MCP server, so Grok can find a fashion item from a
 photo link or a description, check whether a product is cheaper elsewhere or
 second-hand, and keep watching an item for you.
@@ -49,25 +49,26 @@ Germany, Austria and Switzerland, in local currency.
 
 ## Install
 
+### Grok (grok.com and the Grok apps)
+
+1. Go to [grok.com/connectors](https://grok.com/connectors).
+2. Click **New Connector**, then select **Custom**.
+3. Name it **Remode** and enter `https://mcp.remode.app/mcp?platform=grok`.
+
+Searching works straight away. Hunt tools ask you to connect your Remode
+account (OAuth) the first time you use them. Setup page:
+https://remode.app/grok
+
 ### Grok Build
+
+Add `https://mcp.remode.app/mcp?platform=grok` as a remote (HTTP) MCP server,
+or install this repository as a local plugin to also get the skill. Once Remode
+is listed in the Grok Build plugin marketplace:
 
 ```bash
 grok plugin marketplace add xai-org/plugin-marketplace
 grok plugin install remode --trust
 ```
-
-Or inside a session: type `/marketplace`, search for `remode`, and press `i`.
-If the name can't be resolved because another marketplace is registered, use
-`grok plugin install remode@plugin-marketplace --trust`.
-
-### Grok Bot and other Grok surfaces with custom MCP connectors
-
-Add a custom MCP server (connector) with:
-
-- **URL:** `https://mcp.remode.app/mcp?platform=grok`
-- **Transport:** streamable HTTP
-- **Authentication:** none to start. Hunt tools prompt for a Remode sign-in
-  (OAuth) when you first use them.
 
 ### Cursor
 
