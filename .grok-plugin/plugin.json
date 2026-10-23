@@ -1,0 +1,21 @@
+{
+  "name": "remode",
+  "version": "1.0.0",
+  "description": "Remode fashion shopping assistant for Grok via Remode's hosted MCP server. Find clothing, shoes, bags and accessories from a photo link or a description, compare one product's price across shops and second-hand, and start Hunts that keep watching an exact item for a lower price, a restock or a second-hand listing. Searching needs no account; Hunts ask you to sign in to Remode.",
+  "author": {
+    "name": "Remode",
+    "email": "hello@remode.app",
+    "url": "https://remode.app"
+  },
+  "homepage": "https://remode.app",
+  "repository": "https://github.com/remode-app/remode-grok-plugin",
+  "license": "MIT",
+  "keywords": [
+    "remode",
+    "remode app",
+    "remode fashion",
+    "remode hunt",
+    "colette and carrie"
+  ],
+  "logo": "assets/logo.png"
+}

@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "remode": {
+      "type": "http",
+      "url": "https://mcp.remode.app/mcp?platform=grok",
+      "note": "Remode's official hosted MCP server (streamable HTTP). Search tools (find_fashion_items, find_fashion_by_description, check_price) work without an account. The four Hunt tools (watch_item, get_watch_updates, update_watch, stop_watching_item) use OAuth 2.1 with PKCE: on first use the server asks you to sign in to Remode in the browser. No API key, nothing installed or executed locally. The platform query parameter only attributes traffic to Grok."
+    }
+  }
+}
